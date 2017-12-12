@@ -1,0 +1,89 @@
+body {
+	font-family: Arial;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+h3 {
+	margin-top: 2rem;
+}
+
+hr {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+input {
+	width: 90%;
+	vertical-align: bottom;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.indent-1 {
+	padding-left: 1rem;
+}
+
+.indent-2 {
+	padding-left: 2rem;
+}
+
+.indent-3 {
+	padding-left: 3rem;
+}
+
+.indent-4 {
+	padding-left: 4rem;
+}
+
+.row {
+	margin-bottom: 1rem;
+}
+
+.row .row {
+	margin-top: 1rem;
+	margin-bottom: 0;
+}
+
+[class*="col-"] {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	background-color: rgba(86, 61, 124, .15);
+	border: 1px solid rgba(86, 61, 124, .2);
+}
+
+.pane {
+	margin-bottom: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	/*flex-flow: row wrap;*/
+	align-items:flex-end;
+	break-inside: auto;
+}
+
+.pane .pane {
+	margin-top: 1rem;
+	margin-bottom: 0;
+}
+
+.pane-label {
+	break-before: column;
+	break-after: column;
+	width: 100%;
+}
+
+.control {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	background-color: rgba(86, 61, 124, .15);
+	border: 1px solid rgba(86, 61, 124, .2);
+	width: 300px;
+}
+
+.pane, .control {
+	vertical-align: bottom;
+}
